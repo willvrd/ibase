@@ -1,5 +1,5 @@
 {
-  "name": "ibase",
+  "name": "@william/ibase",
   "version": "1.0.1",
   "description": "My new Nuxt module",
   "repository": {
@@ -23,5 +23,8 @@
   "author": "William Verde",
   "exports": {
     ".": "./index.ts"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
