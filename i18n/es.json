@@ -1,0 +1,9 @@
+{
+  "ibase": {
+    "base": "Esto es un una traduccion",
+    "componentBase1": {
+      "componentWithoutParams": "Mensaje sin nada de nada",
+      "componentWithParams": "Este es un mensaje con validacion de propiedades"
+    }
+  }
+}
