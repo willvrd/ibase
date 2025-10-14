@@ -1,0 +1,27 @@
+{
+  "name": "ibase-nuxt",
+  "version": "1.0.0",
+  "description": "My new Nuxt module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willvrd/ibase.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "runtime/",
+    "config/",
+    "i18n/"
+  ],
+  "keywords": [
+    "nuxt",
+    "module",
+    "ibase"
+  ],
+  "author": "William Verde",
+  "exports": {
+    ".": "./index.ts"
+  }
+}
