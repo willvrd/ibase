@@ -26,5 +26,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "release": "git push && git push --tags && npm publish"
   }
 }
