@@ -1,8 +1,9 @@
 <script setup lang="ts">
 
-//TODO Esto parece que no es necesario
-/* import {ibaseCategoryRepository} from '#ibase/utils/repository'
-import type {Category} from "#ibase/types/category"; */
+import { useLazyAsyncData } from '#imports'
+
+import {ibaseCategoryRepository} from '#ibase/utils/repository'
+import type {Category} from "#ibase/types/category";
 
 const {data: categories} = useLazyAsyncData<Category[]>(
   'categories:index',
@@ -24,3 +25,4 @@ const {data: categories} = useLazyAsyncData<Category[]>(
     </li>
   </ul>
 </template>
+
