@@ -1,7 +1,7 @@
 {
   "name": "@willtest/ibase",
   "version": "2.4.0",
-  "description": "My new Nuxt module",
+  "description": "My new Nuxt module cambio base",
   "repository": {
     "type": "git",
     "url": "https://github.com/willvrd/ibase.git"
